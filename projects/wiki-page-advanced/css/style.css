@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    padding: 25px 5vw;
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 0px auto;
+}
+img {
+    object-fit: cover;
+}
+h1, h2 {
+    background-color: #c0bef9;
+    padding: 10px;
+    color: #07046d;
+}
+p {
+    margin: 10px 0px;
+}
+h5 {
+    margin: 25px 0px 10px;
+}
+hr {
+    border: 0px;
+    border-bottom: 0.5px solid #c0bef9;
+    margin: 10px 0px 25px;
+}
+ul {
+    list-style-type: none;
+    list-style-image: url("../images/cat.svg");
+    list-style-position: inside;
+    margin-bottom: 25px;
+}
