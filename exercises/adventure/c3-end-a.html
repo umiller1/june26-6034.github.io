@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Adventure</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <audio src="audio/ahs_knotty_pine.mp3" controls></audio>
+        <button id="knottyPinebtn">
+            <span id="play">&#9654;</span>
+            <span id="pause">&#x23F8;</span>
+            <span>What is this? <strong>KNOTTY PIINNEE??</strong></span>
+        </button>
+        <div id="knotty" class="ending-btns">
+            <a href="index.html">
+                Restart
+            </a>
+        </div>
+        <script>
+            const snd = document.querySelector('audio');
+            const audBtn = document.querySelector('#knottyPinebtn');
+            audBtn.addEventListener('click',() => {
+                snd.play()
+            });
+            snd.volume = 0.1;
+            setTimeout(() => {
+                snd.play()
+            }, 2000);
+        </script>
+    </body>
+</html>                                                                         

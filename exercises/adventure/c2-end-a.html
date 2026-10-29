@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Adventure</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body id="biddy-page">
+        <video
+            src="audio/biddy.mp4"
+            type="video/mp4"
+            id="biddy-blas"
+            controls
+        >
+        Biddy blas.
+        </video>
+        <a href="index.html" class="btn">
+            Restart
+        </a>
+        <script>
+            const vid = document.querySelector('video');
+            vid.volume = 0.05;
+            setTimeout(() => {
+                vid.play()
+            }, 2000);
+        </script>
+    </body>
+</html>                                                                         
