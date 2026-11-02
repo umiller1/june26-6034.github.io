@@ -35,6 +35,17 @@ const QUESTION_BANK = [
   "If you could go camping with your friends in a liminal space full of fun puzzles and intricacies, what liminal space would you choose or how would it look?",
   "If you could interview an animal, what animal and what are 3 questions you'd ask it?",
   "Do you practice design or code outside of class?",
+  "If you could own one magical shop in a fantasy village, what would you sell?",
+  "You are suddenly granted a magical ability based on your personality and goals but it can only do one very niche and specific thing. What is it?",
+  "If you had a very specific spell based on your favorite hobby, what would it be called and what would it do?",
+  "If you were cursed by a really mean witch for a bad habit of yours affecting her, what is the habit and what is the curse?",
+  "Is there something you are terrible at but absolutely enjoy?",
+  "What is a strangely specific compliment that would make your entire week?(school appropriate)",
+  "If your brain had a loading screen, what tip would it display to other while they wait for you to respond?",
+  "You find a door in your house that wasn't there yesterday. What would convince you to open it?",
+  "",
+  "",
+  "",
 ];
 
 const COOLDOWN_WEEKDAYS = 45; // 9 weeks × 5 weekdays
