@@ -1,0 +1,10 @@
+img {
+    object-fit: cover;
+}
+#hero {
+    height: 75vh;
+}
+span {
+    display: inline-block;
+    width: 200px;
+}
