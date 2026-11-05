@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+}
+
+#t1-p1 {
+    color: green;
+}
+
+#t2-s1 {
+    color: #f711f7;
+}
+#t2-s2 {
+    color: #f711f7;
+}
+
+#t10-p1 {
+    background-color: lightcoral;
+    text-align: center;
+}
+#t10-s1,
+#t10-s2,
+#t10-s3 {
+    background-color: lightblue;
+}
