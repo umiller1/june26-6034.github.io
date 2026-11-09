@@ -1,0 +1,36 @@
+.color-palettes {
+    padding: 24px;
+    margin: 24px;
+    text-align: center;
+    box-shadow: 6px 6px 12px #989898;
+    border-radius: 25px;
+    border: 0.5px solid #1112;
+}
+.color {
+    margin: 10px 0px;
+    padding: 24px;
+    border-radius: 25px;
+}
+#c1a {
+    background-color: #c1cbff;
+}
+#c1b {
+    background-color: #00c6c0;
+    color: #fff;
+}
+#c1c {
+    background-color: #fcfcd4;
+}
+
+#c2a {
+    background-color: #ffb600;
+    color: #a10367;
+}
+#c2b {
+    background-color: #00ccff;
+    color: #ffeab4;
+}
+#c2c {
+    background-color: #ff33bc;
+    color: #0016a8;
+}
