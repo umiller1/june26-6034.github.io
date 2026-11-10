@@ -1,0 +1,20 @@
+.card {
+    padding: 24px;
+    background-color: #ffd5e6;
+    margin: 24px;
+    width: 200px;
+    display: inline-block;
+}
+.btn {
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.alt {
+    background-color: darkorchid;
+    color: white;
+    font-weight: bold;
+}

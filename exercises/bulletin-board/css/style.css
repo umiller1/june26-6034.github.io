@@ -1,0 +1,48 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    width: 100%;
+    display: block;
+}
+.post-it {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    font-family: sans-serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+.periwinkle {
+    background-color: #a0d9ff;
+}
+
+/* ADVANCED */
+.polaroid {
+    background-color: #eee;
+    padding: 5px 5px 20px;
+    font-family: cursive;
+    font-size: 0.7rem;
+    position: relative;
+}
+.polaroid p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(-15deg);
+    bottom: 2px;
+}
+.polaroid span {
+    display: block;
+    text-align: right;
+    color: blue;
+    position: absolute;
+    bottom: -3px;
+    left: 40px;
+}
