@@ -1,0 +1,17 @@
+/*
+    Padding/Margin shorthand.
+
+    1 value: Targets all four sides.
+    2 values: First value targets both top and bottom. Second value targets
+    both left and right.
+    3 values: First value targets the top, the second value targets both left 
+    and right, and the third value targets the bottom.
+    4 values: First value targets the top, the second value targets the right,
+    the third value targets the bottom, and fourth targets the left.
+*/
+div {
+    border: 5px dashed #eaae00;
+    padding: 24px;
+    margin: 24px 80px;
+    border-radius: 24px;
+}
