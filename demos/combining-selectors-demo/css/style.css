@@ -1,0 +1,20 @@
+#navbar {
+    background-color: blue;
+    padding: 24px;
+    text-align: center;
+}
+div a {
+    color: white;
+}
+p a {
+    color: teal;
+}
+div .warning {
+    color: #f5a500;
+}
+p.warning {
+    background-color: lightgreen;
+}
+p.warning a {
+    color: #1c00bd; 
+}
