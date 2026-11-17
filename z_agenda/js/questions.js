@@ -51,7 +51,7 @@ const QUESTION_BANK = [
   "If aliens abducted you and asked you to explain humanity using one completely ordinary object, what would you show them?",
   "You wake up and discover that everyone has been assigned a personal theme song except you. What do you think went wrong?",
   "You discover there's multiple universes and one of the versions of you has been stealing everyone elses luck: do you ask them how they do it or stop them or a third option?",
-  "",
+  "Share a photo of your ideal home aesthetic(s).",
   "",
 ];
 

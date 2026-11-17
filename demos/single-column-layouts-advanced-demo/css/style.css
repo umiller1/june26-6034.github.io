@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+h1,
+h2 {
+    margin-top: 0px;
+    font-family: "Oi", serif;
+}
+
+.single-column {
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg {
+    background-color: #111;
+    color: #eee;
+    padding: 25px 0px;
+}
+.lbg {
+    padding: 25px 0px;
+    background-color: #eee;
+}
+
+header {
+    background-color: #ffbf48;
+    padding: 25px 0px;
+}
+nav a {
+    color: #0c43ce;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.btn {
+    border: 1px solid #0c43ce;
+    border-radius: 10px;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #0c43ce;
+    color: #fff;
+    transition: 
+        background-color 0.5s,
+        border-color 0.5s,
+        color 0.5s;
+}
+a.btn.alt {
+    background-color: transparent;
+    border-color: #ffbf48;
+    color: #ffbf48;
+}
+
+.btn:hover {
+    background-color: #ffbf48;
+    border-color: #ffbf48;
+    color: #0c43ce;
+}
+a.btn.alt:hover {
+    background-color: #ffbf48;
+    color: #0c43ce;
+}
