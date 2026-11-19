@@ -7,7 +7,7 @@ const QUESTION_BANK = [
   "What's a movie or book that changed how you think about something?",
   "What's a risk you took that paid off (big or small)?",
   "If you could teleport anywhere for lunch today, where would you go?",
-  "What's a question you wish more people asked you?",
+  "What's a fun question you wish more people asked you?",
   "In a world where technology and AI are rapidly evolving and overtly relied on, what are 3 skills, niches, or techniques you can safely fallback on if most technology stopped working for two decades?",
   "If you were a dragon, what one specific type of object(s) would you hoard?",
   "What would your rival insist is your greatest weakness?",
