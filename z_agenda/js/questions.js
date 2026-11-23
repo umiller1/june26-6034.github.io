@@ -48,7 +48,7 @@ const QUESTION_BANK = [
   "You are allowed to add one completely unnecessary feature to the human body. What are you adding? (school appropriate)",
   "What's something you wish was small talk but isn't? (school appropriate)",
   "If someone wanted to become your friend, what obscure interest or niche interest of yours would be a good conversation starter?",
-  "If aliens abducted you and asked you to explain humanity using one completely ordinary object, what would you show them?",
+  "If aliens abducted you and asked you to explain humanity using one completely ordinary object that is not a cellular device what would you show them?",
   "You wake up and discover that everyone has been assigned a personal theme song except you. What do you think went wrong?",
   "You discover there's multiple universes and one of the versions of you has been stealing everyone elses luck: do you ask them how they do it or stop them or a third option?",
   "Share a photo of your ideal home aesthetic(s).",
