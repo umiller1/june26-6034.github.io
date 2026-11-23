@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Cherry+Bomb+One&family=Chicle&family=Coiny&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+    background-color: #111;
+    color: #fefefe;
+    letter-spacing: 0.1em;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.image-container img {
+    height: 100%;
+}
+a {
+    color: #fefefe;
+    display: inline-block;
+    font-weight: 500;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background-color: #620073;
+    padding: 15px 25px;
+    border: 0.5px solid #620073;
+    transition: background-color 0.5s, backdrop-filter 0.5s, border-radius 0.5s;
+    &:hover {
+        background-color: #62007322;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+    }
+}
+.contain {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+
+/* HEADER */
+header {
+    position: relative;
+    #bb, #contact {
+        position: fixed;
+        top: 25px;
+        img {
+            width: 2rem;
+        }
+    }
+    #bb {
+        left: 5vw;
+    }
+    #contact {
+        right: 5vw;
+    }
+}
+/* NAV */
+nav .contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    .links {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        font-size: 1.25rem;
+        margin-top: 15px;
+    }
+    .logo img {
+        max-width: 200px;
+        min-width: 100px;
+    }
+}
+
+/* HERO */
+.hero {
+    height: 50vh;
+    margin: 50px 0px 80px;
+}
+.hero .contain {
+    display: flex;
+    gap: clamp(15px, 25px, 50px);
+    height: 100%;
+    .card {
+        flex: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: right;
+        padding: 25px 25px 0px 0px;
+    }
+    #c1 {
+        background-image: 
+        linear-gradient(to bottom left, #3300ff, #01010155, #01010100),
+        url("../images/the-big-fish.jpg");
+        background-size: cover;
+    }
+}

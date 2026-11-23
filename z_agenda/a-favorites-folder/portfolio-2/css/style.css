@@ -1,0 +1,198 @@
+@import url("https://use.typekit.net/ypw6rbr.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@keyframes rotato {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: #222;
+    color: #eee;
+}
+h1, h2 {
+    font-family: "lust", serif;
+}
+p, li, a {
+    font-size: 1rem;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.contain {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 100vw;
+    background-color: #2225;
+    backdrop-filter: blur(25px);
+    div {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        a {
+            padding: 15px 0px;
+            color: #eee;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.5s;
+            &:hover {
+                color: #007BA7;
+                letter-spacing: 0.1em;
+                text-shadow: 0px 0px 5px #007BA7;
+            }
+        }
+        #logo {
+            margin-right: auto;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img {
+        position: absolute;
+        z-index: -1;
+        filter: saturate(200%) blur(25px);
+        width: 50vw;
+        object-fit: contain;
+        left: 10%;
+        animation: linear 100s infinite rotato;
+    }
+    .contain {
+        width: max-content;
+        margin: 0px auto;
+        p {
+            font-weight: 100;
+            margin-left: -3rem;
+        }
+    }
+    #carerer {
+        text-align: center;
+        position: absolute;
+        bottom: 35px;
+        width: 100%;
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
+    h1 {
+        color: #fff;
+        mix-blend-mode: difference;
+        font-size: 10vw;
+        span {
+            display: block;
+            &:last-child {
+                text-align: right;
+                color: #007BA7;
+            }
+        }
+    }
+}
+
+#proj {
+    height: 90vh;
+    display: grid;
+    grid-template-rows: max-content minmax(0, 1fr);
+    h2:not(.grid h2) {
+        text-align: center;
+        padding: 40px 0px 25px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "c1 c1 c2 c3"
+        "c4 c5 c6 c6";
+        gap: 25px;
+        justify-content: center;
+        align-items: start;
+        .card {
+            display: flex;
+            align-items: flex-end;
+            padding: 0px 0px 15px 15px;
+            height: 100%;
+            border: 2px solid #222;
+            transition: 0.5s;
+        }
+        .card:hover {
+            border: 0.5px solid #007BA7;
+            box-shadow: inset 0px 0px 10px #007BA7, 0px 0px 10px #007BA7;
+        }
+    }
+    #c1 {
+        grid-area: c1;
+        background:
+        linear-gradient(15deg, #007BA7, #007BA700 50%),
+        url(../images/p1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #c2 {
+        grid-area: c2;
+        background:
+        linear-gradient(15deg, #007BA7, #007BA700 50%),
+        url(../images/p2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #c3 {
+        grid-area: c3;
+        background:
+        linear-gradient(15deg, #007BA7, #007BA700 50%),
+        url(../images/p3.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #c4 {
+        grid-area: c4;
+        background:
+        linear-gradient(15deg, #007BA7, #007BA700 50%),
+        url(../images/p4.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #c5 {
+        grid-area: c5;
+        background:
+        linear-gradient(15deg, #007BA7, #007BA700 50%),
+        url(../images/p5.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #c6 {
+        grid-area: c6;
+        background:
+        linear-gradient(15deg, #007BA7, #007BA700 50%),
+        url(../images/p6.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
