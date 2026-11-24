@@ -116,7 +116,8 @@ header nav {
         gap: 10px;
     }
 }
-#lunch {
+#lunch,
+.finals {
     background-color: #9ee8a5;
     margin-top: 25px;
     text-align: center;
@@ -127,6 +128,13 @@ header nav {
         text-transform: uppercase;
         letter-spacing: 0.25em;
     }
+}
+.finals + #lunch {
+    margin-top: 0px;
+}
+.finals {
+    background-color: #7c6dbd;
+    color: #fff;
 }
 
 /* main content */
